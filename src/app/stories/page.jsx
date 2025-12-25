@@ -73,7 +73,7 @@ const Stories = () => {
 
   return (
     <div>
-      <Title>Welcome to Stories</Title>
+      <Title>Explore stories of developers</Title>
       <div>
         {devStories.map((story) => (
           <StoryCard key={story.id} story={story}></StoryCard>
