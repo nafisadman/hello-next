@@ -5,7 +5,7 @@ import React from "react";
 const Banner = () => {
   const router = useRouter();
   const handleBtn = () => {
-    const password = prompt("Enter your password");
+    const password = prompt("Enter your password [1234]");
     if (password == "1234") {
       console.log(router);
       router.push("/dashboard");
